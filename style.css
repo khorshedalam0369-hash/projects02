@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* -------shared style--------- */
+.margin-auto {
+    margin: 0 auto;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.bg-nevy-bleu {
+    background-color: #1a0b2e;
+}
+
+.btn-primary {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12.5px 20px;
+    border: none;
+    border-radius: 10000px;
+    background: linear-gradient(to top right, #f7e93f, #FB09B4, #9100F8);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.navbar {
+    max-width: 1200px;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo>img {
+    width: 100%;
+    display: block;
+}
+
+.menue-bar {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.menue-list {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 500;
+    opacity: 0.9;
+
+}
+
+.menue-list>a {
+    text-decoration: none;
+
+}
+
+.hambarger-icon {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+
+.banner {
+    padding: 100px 0;
+    background-image: url(./assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 1px solid #412567;
+
+}
+
+.banner-img-container {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-image: url(./assets/hero-circle.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.banner-img-container>img {
+    width: 30%;
+}
+
+.banner-img-container>div {
+    padding: 8px 16px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1A0B2E;
+    background-color: #00FF88;
+    box-shadow: 0px 3px 27px #00ff8880;
+    border-radius: 1000px;
+    position: absolute;
+    top: 5%;
+    right: 6%;
+}
+
+.banner-content {
+    text-align: center;
+    margin-top: 40px
+}
+
+.banner-title {
+    font-size: 3.75rem;
+    font-weight: 800;
+}
+
+.banner-info,
+.about-podcast-second-info,
+.about-podcast-first-info,
+.statics-card>p {
+    opacity: 0.8;
+}
+
+.banner-info {
+    margin-top: 8px;
+
+}
+
+.btn-banner-container {
+    margin-top: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#btn-banner-2 {
+    background: none;
+    border: 1px solid #00FF88;
+    color: #00FF88;
+
+}
