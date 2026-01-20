@@ -568,7 +568,7 @@ footer {
         border-radius: 24px;
     }
 
-    .meet-host-content, .why-choose-card-container {
+    .meet-host-content{
         text-align: center;
     }
 
@@ -588,7 +588,7 @@ footer {
 
     .social-link-container {
         margin-top: 24px;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 10px;
     }
 
