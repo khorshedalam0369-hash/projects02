@@ -326,3 +326,55 @@ hr {
 .featured-episode-duration>p {
     color: #00FF88;
 }
+
+/* ---------meet host section related style--------- */
+.host {
+    padding: 0px 0px 120px;
+    background-color: #1a0b2e;
+}
+
+.host-container {
+    max-width: 1200px;
+}
+
+.host-card {
+    margin-top: 40px;
+    align-items: center;
+    gap: 24px;
+    padding: 40px;
+    background-color: #35116566;
+    border-radius: 40px;
+}
+
+.host-img-container {
+    width: 45%;
+}
+
+.host-img-container>img {
+    width: 100%;
+}
+
+.host-name {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.host-social-container {
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.host-social-container>div {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #533c72;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.host-social-container img {
+    display: block;
+}
