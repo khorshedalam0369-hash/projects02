@@ -327,7 +327,7 @@ hr {
     color: #00FF88;
 }
 
-/* ---------meet host section related style--------- */
+
 .host {
     padding: 0px 0px 120px;
     background-color: #1a0b2e;
@@ -377,4 +377,51 @@ hr {
 
 .host-social-container img {
     display: block;
+}
+
+
+
+
+/* ---------footer related style------------------ */
+footer {
+    padding: 120px;
+    background-image: url(../assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+#footer-gradient-logo {
+    background-image: linear-gradient(to top right, #F7E93F, #FB09B4, #9100F8);
+    color: transparent;
+    background-clip: text;
+}
+
+.social-link-container {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 40px;
+}
+
+.social-link {
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.social-link>p,
+.copyright-info {
+    opacity: 0.6;
+}
+
+.copyright-info {
+    margin-top: 32px;
 }
