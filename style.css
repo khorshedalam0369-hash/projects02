@@ -275,3 +275,56 @@ hr {
     margin-top: 16px;
     opacity: 0.6;
 }
+
+
+/* ---------featured episodes related style------------ */
+.featured {
+    padding: 120px 0px;
+    background-color: #1a0b2e;
+}
+
+.featured-container {
+    max-width: 1200px;
+}
+
+.featured-card-container {
+    margin-top: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.featured-card {
+    background-color: #250d44;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.iframe-container>iframe {
+    width: 100%;
+}
+
+.featured-card-content {
+    padding: 24px;
+}
+
+.featured-card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.featured-card-info {
+    margin-top: 12px;
+    opacity: 0.6;
+}
+
+.featured-episode-duration {
+    margin-top: 12px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.featured-episode-duration>p {
+    color: #00FF88;
+}
