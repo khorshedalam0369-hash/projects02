@@ -473,4 +473,141 @@ footer {
         font-size: 2.5rem;
     }
 
+
+
+    br {
+        display: none;
+    }
+
+
+    .about-podcast-section,
+    .why-choose,
+    footer {
+        padding: 40px 20px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .about-podcast-second-info,
+    .why-choose-card-container {
+        margin-top: 16px;
+    }
+
+    hr {
+        margin: 40px 0px;
+    }
+
+    .statics-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+
+    .why-choose-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 16px;
+        grid-template-areas:
+            'pre'
+            'mob'
+            'glo'
+            'int'
+            'res'
+        ;
+    }
+
+    .why-choose-card {
+        padding: 24px 24px;
+        border-radius: 24px;
+    }
+
+    .card-title {
+        font-size: 1.375rem;
+    }
+
+
+    .featured {
+
+        padding: 40px 20px 60px;
+        background-color: #1a0b2e;
+    }
+
+    .featured-card-container {
+        margin-top: 24px;
+        gap: 16px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .iframe-container>iframe {
+        height: 225px;
+    }
+
+    .featured-card-content {
+        padding: 16px;
+    }
+
+    .featured-card-title {
+        font-size: 1.25rem;
+    }
+
+    .featured-card-info {
+        margin-top: 8px;
+    }
+
+
+    .host {
+        padding: 0px 20px 40px;
+    }
+
+    .host-card {
+        flex-direction: column;
+        margin-top: 24px;
+        gap: 16px;
+        padding: 24px;
+        border-radius: 24px;
+    }
+
+    .meet-host-content, .why-choose-card-container {
+        text-align: center;
+    }
+
+    .host-social-container{
+        justify-content: center;
+    }
+
+    footer{
+    background-image: url(./assets/hero-bg.png);
 }
+
+
+
+    .footer-logo {
+        font-size: 1.5rem;
+    }
+
+    .social-link-container {
+        margin-top: 24px;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+    }
+
+    #spotify{
+        justify-self: center;
+    }
+
+    #youtube{
+        justify-self: end;
+    }
+
+    #twitter{
+        justify-self: center;
+    }
+
+    .copyright-info {
+        margin-top: 24px;
+    }
+
+
+}
+
