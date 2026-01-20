@@ -385,7 +385,7 @@ hr {
 /* ---------footer related style------------------ */
 footer {
     padding: 120px;
-    background-image: url(../assets/footer-bg.png);
+    background-image: url(./assets/footer-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
